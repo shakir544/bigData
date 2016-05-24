@@ -1,0 +1,10 @@
+-- To Import all tables from Mysql DB to HDFS 
+
+sqoop --import-all-tables \
+--connect "jdbc:mysql://quickstart.cloudera:3306/retail_db" \
+--username retail_dba \
+--password cloudera \
+--as-avrodataformat \
+--warehouse-dir /user/hive/warehouse/dev.db/
+
+

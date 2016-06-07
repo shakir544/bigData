@@ -8,7 +8,9 @@
  * ID, NAME, SALARY, MANAGER_NAME
  */
 
-import org.apache.spark._
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+
 
 object joinDataSets { 
   
@@ -54,6 +56,7 @@ object joinDataSets {
     // Save the output in HDFS 
     
     commaSperatedDataSet.saveAsTextFile(args(4))
+
 
    
   }

@@ -1,9 +1,0 @@
--- Create a TEST Database in Hive 
-CREATE DATABASE IF NOT EXISTS TEST; 
-
--- Create a UAT Database in Hive 
-CREATE DATABASE IF NOT EXISTS UAT; 
-
--- Create a QA DATABASE in Hive; 
-CREATE DATABASE IF NOT EXISTS QA; 
-

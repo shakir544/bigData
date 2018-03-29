@@ -9,7 +9,7 @@ import org.sgooty.JSONUtils.*;
 		  name = "addkeyvaluetojson",
 		  value = "_FUNC_(str, str, str) - return a JSON string with an additional key/value pair included",
 		  extended = "Example:\n" +
-		  "  > SELECT addkeyvaluetojsonstring(json, \"key1\", \"key2\") FROM dual a;\n"
+		  "  > SELECT addkeyvaluetojson(json, \"key1\", \"key2\") FROM dual a;\n"
 		)
 public class AddKeyValueToJSON extends UDF{
 

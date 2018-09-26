@@ -11,11 +11,7 @@ public class AddKeyValueToJSONTest  {
 		AddKeyValueToJSON jsonUDF = new AddKeyValueToJSON(); 
 		assertEquals("{\"key\":\"value\"}", jsonUDF.evaluate("{}", "key", "value"));
 		assertEquals("{\"key\":\"value\",\"key1\":\"value1\"}", jsonUDF.evaluate("{\"key\":\"value\"}", "key1", "value1"));
-		assertEquals("{\"key\":\"value\"}", jsonUDF.evaluate("{\"key\":\"value\"}", "key", "value"));
-
-		
-
-		
+		assertEquals("{\"key\":\"value\"}", jsonUDF.evaluate("{\"key\":\"value\"}", "key", "value"));		
 	}
 	
 
